@@ -7,6 +7,7 @@
     float: left;
     justify-content: center;
     align-items: center;
+    color: antiquewhite;
 }
 
 .container{
@@ -17,6 +18,8 @@
 
 .span{
     display: none;
+    font-family: monospace;
+    font-size: xx-large;
 }
 
 .sqr:hover > .span{

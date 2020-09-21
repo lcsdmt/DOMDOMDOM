@@ -31,14 +31,14 @@ document.addEventListener("DOMContentLoaded", function (event) {
         sqr.appendChild(span)
         //sqr.addEventListener("mouseover", function () {
 
-       // });
+        // });
 
         // sqr.addEventListener("mouseout", function () {
         //    sqr.innerHTML = " "
         //});
 
         sqr.addEventListener("click", function () {
-            let colorList = ["red", "blue", "green", "yellow", "purple", "grey"]
+            let colorList = ["red", "blue", "green", "darkolivegreen", "purple", "darkslateblue", "grey", "dimgrey", "darkblue", "darkred"]
             const randomNum = Math.floor(Math.random() * colorList.length);
             sqr.style.backgroundColor = colorList[randomNum];
         })
